@@ -135,23 +135,4 @@ LM Studio recibe estos datos y genera una explicacion en lenguaje natural.
 
 Este sistema es una herramienta academica. No debe usarse como reemplazo de una evaluacion medica profesional. Los resultados deben interpretarse como apoyo explicativo y no como diagnostico definitivo.
 
-## Subir a Git
 
-Ejemplo de comandos:
-
-```powershell
-git init
-git add .
-git commit -m "Agregar sistema predictivo de diabetes"
-git branch -M main
-git remote add origin URL_DEL_REPOSITORIO
-git push -u origin main
-```
-
-Se recomienda no subir el entorno virtual `venv/`. Para eso, crear un archivo `.gitignore` con al menos:
-
-```text
-venv/
-__pycache__/
-*.pyc
-```
